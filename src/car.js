@@ -356,7 +356,7 @@ function init() {
     initController()
     initGUI()
 
-    initMutilColor()
+    // initMutilColor()
 }
 
 init()
