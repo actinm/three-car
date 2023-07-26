@@ -275,21 +275,21 @@ function initMessiLight() {
 
 function initMutilColor() {
     //创建三色光源
-    rectLight1 = new THREE.RectAreaLight(0xff0000, 50, 1, 10);
+  let  rectLight1 = new THREE.RectAreaLight(0xff0000, 50, 1, 10);
     rectLight1.position.set(15, 10, 15);
     rectLight1.rotation.x = -Math.PI / 2
     rectLight1.rotation.z = -Math.PI / 4
     scene.add(rectLight1);
 
 
-    rectLight2 = new THREE.RectAreaLight(0x00ff00, 50, 1, 10);
+   let rectLight2 = new THREE.RectAreaLight(0x00ff00, 50, 1, 10);
     rectLight2.position.set(13, 10, 13);
     rectLight2.rotation.x = -Math.PI / 2
     rectLight2.rotation.z = -Math.PI / 4
     scene.add(rectLight2);
 
 
-    rectLight3 = new THREE.RectAreaLight(0x0000ff, 50, 1, 10);
+   let rectLight3 = new THREE.RectAreaLight(0x0000ff, 50, 1, 10);
     rectLight3.position.set(11, 10, 11);
     rectLight3.rotation.x = -Math.PI / 2
     rectLight3.rotation.z = -Math.PI / 4
