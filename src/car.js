@@ -269,7 +269,7 @@ function initMessiLight() {
     spotLight1.target.position.set(-10, 3, 10)
 
     spotLight1.map = texture
-    lightHelper1 = new THREE.SpotLightHelper(spotLight1);
+    // lightHelper1 = new THREE.SpotLightHelper(spotLight1);
     scene.add(spotLight1);
 }
 
